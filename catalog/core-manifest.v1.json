@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "retrogame-cores",
+  "catalogName": "RetroGame 核心仓库",
+  "generatedAt": "2026-08-19T18:47:23Z",
+  "cores": [
+    {
+      "id": "fceumm",
+      "displayName": "FCEUmm",
+      "platformIds": [
+        "nes"
+      ],
+      "runtimeFamily": "libretro",
+      "version": "nightly-20260819",
+      "license": "GPL-2.0-or-later",
+      "licenseUrl": "../licenses/fceumm.txt",
+      "sourceUrl": "https://github.com/libretro/libretro-fceumm",
+      "defaultForPlatform": true,
+      "files": [
+        {
+          "abi": "arm64-v8a",
+          "url": "../cores/nes/fceumm/arm64-v8a/fceumm_libretro_android.so",
+          "fileName": "fceumm_libretro_android.so",
+          "size": 2878032,
+          "sha256": "3a383500cca96e793ca30f74c5737e8eb7e797691aa376a4d18fe146c982c66e",
+          "minSdk": 23
+        },
+        {
+          "abi": "armeabi-v7a",
+          "url": "../cores/nes/fceumm/armeabi-v7a/fceumm_libretro_android.so",
+          "fileName": "fceumm_libretro_android.so",
+          "size": 1530204,
+          "sha256": "2c51861b8dd262b59dc1edc04c6636fb165fc3227bf71a2a93572e2369c4d631",
+          "minSdk": 23
+        }
+      ]
+    },
+    {
+      "id": "mesen",
+      "displayName": "Mesen",
+      "platformIds": [
+        "nes"
+      ],
+      "runtimeFamily": "libretro",
+      "version": "nightly-20260819",
+      "license": "GPL-3.0-or-later",
+      "licenseUrl": "../licenses/mesen.txt",
+      "sourceUrl": "https://github.com/SourMesen/Mesen",
+      "defaultForPlatform": false,
+      "files": [
+        {
+          "abi": "arm64-v8a",
+          "url": "../cores/nes/mesen/arm64-v8a/mesen_libretro_android.so",
+          "fileName": "mesen_libretro_android.so",
+          "size": 3546464,
+          "sha256": "b98359389dfbca0571b4e5de4526cf7711f2477cef72b7afb683e22bf1fdc460",
+          "minSdk": 23
+        },
+        {
+          "abi": "armeabi-v7a",
+          "url": "../cores/nes/mesen/armeabi-v7a/mesen_libretro_android.so",
+          "fileName": "mesen_libretro_android.so",
+          "size": 1823932,
+          "sha256": "d6ab647268ddd5a7faf93d8fa99eeb6fde03b84e2a6298fe03da3a5cf009a0d0",
+          "minSdk": 23
+        }
+      ]
+    }
+  ]
+}

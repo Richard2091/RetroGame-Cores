@@ -1,0 +1,9 @@
+FCEUmm 核心许可证
+
+SPDX: GPL-2.0-or-later
+
+上游项目：libretro-fceumm
+  https://github.com/libretro/libretro-fceumm
+
+本目录中的 fceumm_libretro_android.so 由 libretro buildbot nightly 构建，
+版权归上游作者所有，遵循 GPL-2.0-or-later 许可。

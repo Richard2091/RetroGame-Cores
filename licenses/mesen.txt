@@ -1,0 +1,9 @@
+Mesen 核心许可证
+
+SPDX: GPL-3.0-or-later
+
+上游项目：Mesen
+  https://github.com/SourMesen/Mesen
+
+本目录中的 mesen_libretro_android.so 由 libretro buildbot nightly 构建，
+版权归上游作者所有，遵循 GPL-3.0-or-later 许可。
