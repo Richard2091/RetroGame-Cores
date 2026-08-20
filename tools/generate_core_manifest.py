@@ -74,7 +74,7 @@ def main() -> int:
     for core_id, meta in CORE_META.items():
         so_name = EXPECTED_SO[core_id]
         files = []
-        for abi in ("arm64-v8a", "armeabi-v7a"):
+        for abi in ("arm64-v8a", "armeabi-v7a", "x86", "x86_64"):
             zip_path = cores_dir / f"{abi}-{so_name}.zip"
             if not zip_path.is_file():
                 print(f"跳过缺失核心包：{zip_path.name}", file=sys.stderr)

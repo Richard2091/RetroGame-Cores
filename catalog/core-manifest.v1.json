@@ -32,6 +32,22 @@
           "size": 1530204,
           "sha256": "2c51861b8dd262b59dc1edc04c6636fb165fc3227bf71a2a93572e2369c4d631",
           "minSdk": 23
+        },
+        {
+          "abi": "x86",
+          "url": "../cores/nes/fceumm/x86/fceumm_libretro_android.so",
+          "fileName": "fceumm_libretro_android.so",
+          "size": 1989248,
+          "sha256": "c52e02406759b7f2611acabe27417f37e5acb4d8a23ad0ff32ac04415ba1ca5a",
+          "minSdk": 23
+        },
+        {
+          "abi": "x86_64",
+          "url": "../cores/nes/fceumm/x86_64/fceumm_libretro_android.so",
+          "fileName": "fceumm_libretro_android.so",
+          "size": 2840216,
+          "sha256": "f5526f457d4b707037d038f5d2c472d511b989886007e36a7d4e3436d3617799",
+          "minSdk": 23
         }
       ]
     },
